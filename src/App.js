@@ -1,23 +1,18 @@
-import logo from './logo.svg';
-import './App.css';
+import Button from "./components/atoms/button/button.component";
+import Image from "./components/atoms/image/image.component";
+import Noxx from './assets/images/noxx.jpg'
+import Text from "./components/atoms/text/text.component";
+import Hero from "./components/organisms/hero/hero.component";
+import Home from "./components/pages/home/home.component";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Text size={"2.5rem"} weight={"700"} color={"green"} text={"ADevCalledNoxx"}/>
+      <Button bg="yellow" text={"Learn More"} textColor={"#F87575"}/>
+      <Image src={Noxx} borderRadius="50%" /> */}
+      {/* <Hero /> */}
+      <Home />
     </div>
   );
 }
