@@ -8,7 +8,13 @@ export const NavBarStyles = styled.div`
     margin-bottom: 1rem;
 
     @media only screen and (max-width: 760px){
-        padding: 0.5rem 0.5rem;
+        padding: 1rem 1rem;
+
+        > * {
+            &:nth-child(2) {
+                visibility: hidden;
+            }
+        }
     }
 `
 

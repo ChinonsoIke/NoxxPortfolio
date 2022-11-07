@@ -1,9 +1,9 @@
 import React from 'react'
 import { CustomImage } from './image.styles'
 
-const Image = ({src, borderRadius, height, width}) => {
+const Image = ({src, borderRadius, height, width, fit}) => {
   return (
-    <CustomImage src={src} borderRadius={borderRadius} height={height} width={width} />
+    <CustomImage src={src} borderRadius={borderRadius} fit={fit} height={height} width={width} />
   )
 }
 
