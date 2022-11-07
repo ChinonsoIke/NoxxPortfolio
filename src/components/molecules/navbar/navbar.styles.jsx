@@ -7,7 +7,7 @@ export const NavBarStyles = styled.div`
     padding: 1rem 3rem;
     margin-bottom: 1rem;
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 760px){
         padding: 0.5rem 0.5rem;
     }
 `
@@ -18,7 +18,7 @@ export const NavStyles = styled.nav`
     gap: 4rem;
     width: 60%;
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 760px){
         gap: 1rem;
         width: 75%;
 

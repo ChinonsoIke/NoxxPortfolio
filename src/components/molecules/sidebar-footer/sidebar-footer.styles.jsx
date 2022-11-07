@@ -12,7 +12,7 @@ export const SidebarFooterStyles = styled.div`
     width: calc(25% - 2rem);
     border-radius: 5px 5px 0 0;
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 760px){
         position: relative;
         heigth: inherit;
         width: 70%;

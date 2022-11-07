@@ -10,7 +10,7 @@ export const SidebarStyles = styled.div`
     background: #2A2A2A;
     padding: 1rem;
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 760px){
         visibility: hidden;
     }
 `

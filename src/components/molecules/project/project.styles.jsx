@@ -8,7 +8,7 @@ export const ProjectStyles = styled.div`
     background: whitesmoke;
     gap: 1rem;
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 760px){
         flex-wrap: wrap;
         > * {
             &:first-child {
@@ -24,7 +24,7 @@ export const Right = styled.div`
     justify-content: space-between;
     gap: 0.5rem;
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 760px){
         width: 100%;
     }
 `

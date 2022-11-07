@@ -7,7 +7,7 @@ export const HomeStyles = styled.div`
     background: whitesmoke;
     position: relative;
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 760px){
         padding: 0.5rem;
         gap: 0;
     }
@@ -25,7 +25,7 @@ export const Right = styled.div`
         display: none;
     }
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 760px){
         width: 100%;
     }
 `
@@ -34,7 +34,7 @@ export const Left = styled.div`
     width: 25%;
     position: relative;
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 760px){
         width: 0%;
     }
 `

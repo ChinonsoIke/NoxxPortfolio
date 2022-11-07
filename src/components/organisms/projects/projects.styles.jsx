@@ -22,7 +22,7 @@ export const Header = styled.div`
     padding: 1rem 2rem;
     margin-top: 2rem;
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 760px){
         padding: 1rem 0;
         .buttons {
             display: flex;

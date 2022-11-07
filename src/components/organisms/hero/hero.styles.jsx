@@ -7,7 +7,7 @@ export const HeroStyles = styled.div`
     background: #2A2A2A;
     padding: 2rem 0;
 
-    @media only screen and (max-width: 600px){
+    @media only screen and (max-width: 760px){
         padding: 2rem 2rem;
         > * {
             &:first-child {
