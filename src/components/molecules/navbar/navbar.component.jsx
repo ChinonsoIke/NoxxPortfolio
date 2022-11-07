@@ -7,7 +7,7 @@ import Link from '../../atoms/link/link.component'
 const NavBar = () => {
   return (
     <NavBarStyles className='section'>
-        <Image src={noxx} height="50px" width="200px"/>
+        <Image src={noxx} height="5rem" width="15rem"/>
         <NavStyles>
           <Link to="/" text="HOME" weight="600" color="whitesmoke" />
           <Link type="a" to="/#about" text="ABOUT" weight="600" color="whitesmoke" />

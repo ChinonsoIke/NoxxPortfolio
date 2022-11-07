@@ -19,8 +19,8 @@ export const NavStyles = styled.nav`
     width: 60%;
 
     @media only screen and (max-width: 760px){
-        gap: 1rem;
-        width: 75%;
+        gap: 0.5rem;
+        width: 65%;
 
         > * {
             &:first-child {
