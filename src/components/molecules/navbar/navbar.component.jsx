@@ -1,16 +1,18 @@
 import Image from '../../atoms/image/image.component'
 import Text from '../../atoms/text/text.component'
 import { NavBarStyles, NavStyles } from './navbar.styles'
-import react from '../../../assets/icons/react.png'
+import noxx from '../../../assets/icons/NOXX.svg'
+import Link from '../../atoms/link/link.component'
 
 const NavBar = () => {
   return (
     <NavBarStyles className='section'>
-        <Image src={react} height="50px" width="50px"/>
+        <Image src={noxx} height="50px" width="200px"/>
         <NavStyles>
-            <Text text="HOME" weight="600" color="whitesmoke" />
-            <Text text="ABOUT" weight="600" color="whitesmoke" />
-            <Text text="BLOG" weight="600" color="whitesmoke" />
+          <Link to="/" text="HOME" weight="600" color="whitesmoke" />
+          <Link type="a" to="/#about" text="ABOUT" weight="600" color="whitesmoke" />
+          <Link to="/blog" text="BLOG" weight="600" color="whitesmoke" />
+          <Link type="a" to="/#contact" text="CONTACT" weight="600" color="whitesmoke" />
         </NavStyles>
     </NavBarStyles>
   )

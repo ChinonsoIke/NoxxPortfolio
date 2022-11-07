@@ -8,7 +8,7 @@ export const NavBarStyles = styled.div`
     margin-bottom: 1rem;
 
     @media only screen and (max-width: 600px){
-        padding: 1rem 1rem;
+        padding: 0.5rem 0.5rem;
     }
 `
 
@@ -20,5 +20,12 @@ export const NavStyles = styled.nav`
 
     @media only screen and (max-width: 600px){
         gap: 1rem;
+        width: 75%;
+
+        > * {
+            &:first-child {
+                visibility: hidden;
+            }
+        }
     }
 `

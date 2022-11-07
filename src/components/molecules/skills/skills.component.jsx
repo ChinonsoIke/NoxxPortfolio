@@ -10,7 +10,7 @@ const Skills = () => {
         <Text text="SKILLS" color="#2A2A2A" weight="600" size="1rem" />
         <hr />
         {technologies.map(t => {
-            return <SkillSet>
+            return <SkillSet key={t.name}>
                 <Image src={t.icon} height="22px" width="22px" />
                 <Text text={t.name} weight="600" size="0.8rem"/>
             </SkillSet>

@@ -8,7 +8,7 @@ import { HomeStyles, Left, Right } from './home.styles'
 const Home = () => {
   return (
     <>
-      <NavBar/>
+      {/* <NavBar/> */}
       <HomeStyles>
           <Left>
               <SideBar/>
