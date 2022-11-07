@@ -22,7 +22,7 @@ const Hero = () => {
                 over three years of professional experience in design, development, integration, 
                 and delivery of web applications."
               size="1rem" weight="300" color="whitesmoke" />
-            <a href="https://drive.google.com/file/d/17oJ8NTjOkNqRnYq-K1bzWjdkb7LdWHtc/view?usp=sharing" target="_blank">
+            <a href="https://docs.google.com/document/d/1AEvk3TsbLan5P6vuF1yGmkf5-JJPufX9gzs9R52xJBU/edit?usp=sharing" target="_blank">
               <Button text="Download Resume" />
             </a>
         </Left>
