@@ -28,7 +28,7 @@ export const Frontend = [
     },
     {
         name: "GMS Travels",
-        description: "A flights, hotels and destinations booking system for a Nigerian-based start-up.",
+        description: "A flights, hotels and destinations booking system built for a Nigeria-based start-up.",
         technologies: ['VueJS', 'inertia', 'HTML', 'CSS', 'Bootstrap'],
         links: {
             website: "https://gmstravels.com"
@@ -38,6 +38,15 @@ export const Frontend = [
 ]
 
 export const Backend = [
+    {
+        name: "Blog API",
+        description: "An API for a blog, with all necessary features available.",
+        technologies: ['ASP.NET Web API', 'Entity Framework Core', 'MS SqlServer', 'ASP.NET Core Identity'],
+        links: {
+            github: "https://github.com/ChinonsoIke/ADevCalledNoxx"
+        },
+        image: backend
+    },
     {
         name: "Car Venture",
         description: "A car rental app built with ASP.NET Core MVC",
@@ -49,12 +58,12 @@ export const Backend = [
     },
     {
         name: "GMS Travels",
-        description: "A flights, hotels and destinations booking system for a Nigeria-based start-up.",
-        technologies: ['Laravel', 'Pusher Channels', 'MySql'],
+        description: "API backend for flights, hotels and destinations booking system built for a Nigeria-based start-up.",
+        technologies: ['Laravel', 'MySql'],
         links: {
             website: "https://gmstravels.com"
         },
-        image: gms
+        image: backend
     },
     {
         name: "Swyft",
@@ -64,5 +73,14 @@ export const Backend = [
             github: "https://github.com/ChinonsoIke/Swyft-WinForm"
         },
         image: swyft
+    },
+    {
+        name: "Nkata API",
+        description: "API for Nkata chat app",
+        technologies: ['PHP Laravel', 'Sanctum', 'Pusher Channels', 'MySql'],
+        links: {    
+            github: "https://github.com/ChinonsoIke/Nkata-Chat-App-API"
+        },
+        image: backend
     }
 ]
