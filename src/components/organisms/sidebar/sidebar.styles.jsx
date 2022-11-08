@@ -4,7 +4,7 @@ export const SidebarStyles = styled.div`
     height: 100%;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.8rem;
     width: inherit;
     position: fixed;
     background: #2A2A2A;

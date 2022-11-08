@@ -16,6 +16,14 @@ export const NavBarStyles = styled.div`
             }
         }
     }
+
+    @media only screen and (min-width: 761px){
+        > * {
+            &:last-child {
+                visibility: hidden;
+            }
+        }
+    }
 `
 
 export const NavStyles = styled.nav`
@@ -34,4 +42,18 @@ export const NavStyles = styled.nav`
             }
         }
     }
+`
+
+export const MobileNavStyles = styled.div`
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 70vw;
+    height: 100vh;
+    top: 0;
+    right: 0;
+    padding: 2rem;
+    z-index: 5;
+    background: #2a2a2aef;
 `
