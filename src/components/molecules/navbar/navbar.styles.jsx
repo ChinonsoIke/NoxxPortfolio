@@ -13,13 +13,13 @@ export const NavBarStyles = styled.div`
 
         > * {
             &:first-child {
-                width: 60%;
+                width: 40%;
             }
             &:nth-child(2) {
                 visibility: hidden;
             }
             &:last-child {
-                width: 40%;
+                width: 60%;
             }
         }
     }
