@@ -9,7 +9,6 @@ const BlogIndex = () => {
         const response = await fetch("https://dev.to/api/articles?username=chinonsoike")
         const result = await response.json()
         setArticles(result)
-        console.log(result)
     }
 
     useEffect(() => {

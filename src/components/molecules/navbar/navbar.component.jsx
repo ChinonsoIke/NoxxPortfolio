@@ -12,7 +12,6 @@ const NavBar = () => {
 
   const toggleMobileNav = () => {
     setShowMobileNav(!showMobileNav)
-    console.log('toggled')
   }
 
   return (

@@ -9,14 +9,12 @@ import Footer from '../../organisms/footer/footer.component'
 const BlogDetail = () => {
     const [article, setArticle]  = useState({})
     const location = useLocation()
-    console.log(location)
     const id = location.pathname.split('/')[2]
 
     const fetchArticle = async () => {
         const response = await fetch(`https://dev.to/api/articles/${id}`)
         const result = await response.json()
         setArticle(result)
-        console.log(result)
     }
 
     useEffect(() => {
