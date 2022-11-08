@@ -12,8 +12,14 @@ export const NavBarStyles = styled.div`
         padding: 1rem 2rem;
 
         > * {
+            &:first-child {
+                width: 60%;
+            }
             &:nth-child(2) {
                 visibility: hidden;
+            }
+            &:last-child {
+                width: 40%;
             }
         }
     }
