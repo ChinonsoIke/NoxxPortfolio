@@ -11,6 +11,11 @@ export const BlogDetailStyles = styled.div`
         color: var(--yellow)
     }
 
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
     p {
         line-height: 2rem;
     }
@@ -29,9 +34,8 @@ export const BlogDetailStyles = styled.div`
         visibility: hidden;
     }
 
-    strong {
-        line-height: 5rem;
-        font-size: 1.5rem;
+    strong, h1, h2, h3 {
+        line-height: 3rem;
     }
 
     .tags {
@@ -40,6 +44,6 @@ export const BlogDetailStyles = styled.div`
     }
 
     @media only screen and (max-width: 760px){
-        padding: 0 1rem;
+        padding: 0 2rem;
     }
 `
