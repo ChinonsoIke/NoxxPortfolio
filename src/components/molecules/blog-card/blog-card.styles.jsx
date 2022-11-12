@@ -7,6 +7,7 @@ export const BlodCardStyles = styled.div`
     flex-wrap: wrap;
     height: 25rem;
     background: var(--bg-primary);
+    margin-bottom: 1rem;
 
     .content {
         padding: 1rem;
