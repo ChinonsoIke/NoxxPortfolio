@@ -28,4 +28,31 @@ export const Left = styled.div`
     word-break: break-word;
     gap: 2rem;
     z-index: 2;
+
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+
+    @keyframes slide {
+        0% {
+            transform: scale(25%);
+        }
+
+        33% {
+            transform: scale(50%);
+        }
+
+        66% {
+            transform: scale(75%);
+        }
+
+        90% {
+            transform: scale(120%) translateX(10rem);
+        }
+
+        100% {
+            transform: scale(100%) translateX(0);
+        }
+    }
 `
