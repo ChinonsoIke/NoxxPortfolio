@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../../atoms/button/button.component'
 import Text from '../../atoms/text/text.component'
 import { HeroStyles, Left } from './hero.styles'
-import Noxx from '../../../assets/images/noxx.jpg'
+import noxx2 from '../../../assets/images/noxx.jpg'
 import Image from '../../atoms/image/image.component'
 
 const Hero = () => {
@@ -28,7 +28,7 @@ const Hero = () => {
               <Button text="Download Resume" />
             </a>
         </Left>
-        <Image src={Noxx} borderRadius="50%" height="20rem" width="20rem" />
+        <Image src={noxx2} borderRadius="50%" height="20rem" width="20rem" />
     </HeroStyles>
   )
 }
