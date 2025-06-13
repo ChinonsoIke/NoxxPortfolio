@@ -1,7 +1,7 @@
 import React from 'react'
 import Image from '../../atoms/image/image.component'
 import { CardStyles } from './sidebar-card.styles'
-import noxx2 from '../../../assets/images/noxx.jpg'
+import noxx2 from '../../../assets/images/noxx2.jpg'
 import Text from '../../atoms/text/text.component'
 
 const SidebarCard = () => {
