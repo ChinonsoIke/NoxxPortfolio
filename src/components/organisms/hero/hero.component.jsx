@@ -18,9 +18,11 @@ const Hero = () => {
               size="2.5rem" weight="700" color="whitesmoke" />
           </div>
             <Text 
-              text="A results-driven, highly organized and analytical software engineer, with 
-                over three years of professional experience in design, development, integration, 
-                and delivery of web applications."
+              text="Experienced .NET Software Engineer specializing in enterprise-scale architecture and cloud-native development with 
+              over 5 years of expertise in designing and implementing robust applications across Banking, Healthcare, and Consulting industries. 
+              Strong expertise in distributed systems using Apache Kafka, Redis, and modern cloud platforms such as Microsoft Azure and 
+              AWS to build resilient, high-performance systems. Proven track record in delivering scalable solutions that 
+              balance technical excellence with business objectives"
               size="1rem" weight="300" color="whitesmoke" />
             <a href="https://docs.google.com/document/d/1AEvk3TsbLan5P6vuF1yGmkf5-JJPufX9gzs9R52xJBU/edit?usp=sharing" target="_blank">
               <Button text="Download Resume" />
