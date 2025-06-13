@@ -2,7 +2,7 @@ import React from 'react'
 import Button from '../../atoms/button/button.component'
 import Text from '../../atoms/text/text.component'
 import { HeroStyles, Left } from './hero.styles'
-import noxx2 from '../../../assets/images/noxx2.jpg'
+import noxx2 from '../../../assets/images/noxx2.jpeg'
 import Image from '../../atoms/image/image.component'
 
 const Hero = () => {
